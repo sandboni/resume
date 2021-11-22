@@ -89,11 +89,8 @@ svg {
 @media screen and (max-width: 1200px) {
   .image{
     display: none;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .header li{
-    margin-bottom:
+    
+  .about p:first-of-type {
+    margin-top: 10%;
   }
 }
