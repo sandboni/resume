@@ -133,6 +133,26 @@ svg {
   font-size: 1.75rem;
 }
 
+.contact a:active {
+  color: #41FF00;
+  text-decoration: none;
+}
+
+.contact a:link {
+  color: #41FF00;
+  text-decoration: none;
+}
+
+.contact a:visited {
+  color: #41FF00;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
 
 @media screen and (max-width: 1200px) {
   .image{
