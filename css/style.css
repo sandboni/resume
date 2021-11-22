@@ -22,6 +22,26 @@ body {
   font-family: "Share Tech Mono";
 }
 
+.title h1 a:active {
+  color: #41FF00;
+  text-decoration: none;
+}
+
+.title h1 a:link {
+  color: #41FF00;
+  text-decoration: none;
+}
+
+.title h1 a:visited {
+  color: #41FF00;
+  text-decoration: none;
+}
+
+.title h1 a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
 .title p {
   margin: 0;
   font-family: "Share Tech Mono";
@@ -40,10 +60,27 @@ body {
   font-family: "Share Tech Mono";
   font-size: 1.5rem;
   margin-left: 20px;
+  color: #41FF00;
 }
 
-.header li:hover {
+.header li a:active {
+  color: #41FF00;
+  text-decoration: none;
+}
+
+.header li a:link {
+  color: #41FF00;
+  text-decoration: none;
+}
+
+.header li a:visited {
+  color: #41FF00;
+  text-decoration: none;
+}
+
+.header li a:hover {
   color: gray;
+  text-decoration: underline;
 }
 
 .body{
@@ -86,10 +123,22 @@ svg {
   font-size: 1.75rem;
 }
 
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  font-family: "Share Tech Mono";
+  font-size: 1.75rem;
+}
+
+
 @media screen and (max-width: 1200px) {
   .image{
     display: none;
   }
+
   .about p:first-of-type {
     margin-top: 10%;
   }
