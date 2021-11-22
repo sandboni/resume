@@ -168,7 +168,12 @@ svg {
     width: 80%;
   }
 
-  .header li a {
-    padding-right: 25%;
+  .header ul {
+    width: 60%;
+  }
+
+  .header ul li {
+    width: 100%;
+    font-size: 2.75rem;
   }
 }
