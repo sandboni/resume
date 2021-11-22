@@ -89,7 +89,7 @@ svg {
 @media screen and (max-width: 1200px) {
   .image{
     display: none;
-    
+  }
   .about p:first-of-type {
     margin-top: 10%;
   }
